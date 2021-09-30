@@ -27,7 +27,7 @@ alert(fullName);
 // Alert the values of all the three variables.
 
 // Assignment and re-assignment
-// let name,newUser,isAdmin;
+let name,newUser,isAdmin;
 name="Vivek Kumar";
 alert(name);
 newUser=name;
