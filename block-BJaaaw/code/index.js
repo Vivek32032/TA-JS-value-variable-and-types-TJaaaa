@@ -150,8 +150,8 @@ else {
 
 let salery = Number(prompt("Enter your salary"));
 
-alert(true)
-switch (salery) {
+alert(salery)
+switch (true) {
   case (salery <= 20000):
     alert(`in hand amount is ${salery - (salery * 0.10)}`);
     break;
@@ -196,7 +196,7 @@ else if (marks > 0  && marks < 30){
   alert("Grade D")
 }
 else {
-  alert("enter Marks is invalid")
+  alert("entered Marks is invalid")
 }
 // switch
 let marks = Number(prompt("Enter your Marks"));
@@ -217,7 +217,7 @@ switch (true){
     alert("Grade D");
     break;
     default:
-      alert("enter Marks is invalid")
+      alert("entered Marks is invalid")
 
 }
 
@@ -234,12 +234,16 @@ let weather = prompt("What is the weather like outside");
 switch (weather) {
   case "sunny":
     alert("Wear a T-shirt");
+    break;
   case "rainy":
     alert("Don't forget to take your reincoat");
+    break;
   case "hot":
    alert("alert Get a hanky");
+   break;
    case "freezing":
      alert("Get your sweeter on");
+     break;
      default:
        alert("Not a valid outside");
 }
