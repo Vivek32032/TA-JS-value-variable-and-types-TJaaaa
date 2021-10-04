@@ -138,7 +138,7 @@ Take the value of `marks` (0-100) from user using `prompt` and `alert` the messa
 
 // [Your code goes here]
 let marks=Number(prompt("Enter no"));
-switch(marks){
+switch(true){
   case marks>=90 :alert("AA");
   break;
   case marks<90 && marks>=80 :alert("AB");
@@ -222,4 +222,6 @@ switch (operation) {
     result = num1 / num2;
     alert("result is :" + result)
     break;
+    default :
+    alert("Enter a valid input")
 }
