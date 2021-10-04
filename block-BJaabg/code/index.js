@@ -9,10 +9,24 @@
 const SPENDING_THRESHOLD = 200;
 const TAX_RATE = 0.08;
 const PHONE_PRICE = 99.99;
-const ACCESSORY_PRICE = 9.99;
+const ACCESSORY_PRICE = 9.99;  //
 
 var bank_balance = 303.91;
 var amount = 0;
 // your code goes here
+for(let i=1; i <= bank_balance; i*PHONE_PRICE) {
+   amount=PHONE_PRICE;
+   i++;
+   for(let j=0; j <=  SPENDING_THRESHOLD ;j*ACCESSORY_PRICE) {
+       amount=amount + ACCESSORY_PRICE;
+       j++;
+   }
+}
+amount=amount+amount*0.08;
+alert(amount);
+
+
+
+
 
 // ⛑ Answer of the above will `$334.76`.
